@@ -2,6 +2,23 @@
 @import './header.scss';
 @import './rental-home';
 
+html,
+body {
+    height: 100%;
+}
+
+.type- {
+    &apartment {
+        color: #a72da3;
+    }
+    &house {
+        color: #bf1818 !important;
+    }
+    &condo {
+        color: #d68000;
+    }
+}
+
 .btn {
     &.btn-sb-main {
         border-color: $main-app-color;
